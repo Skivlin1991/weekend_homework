@@ -1,6 +1,7 @@
 # Pet Shop
 
-:star: This is a PDA Homework :star:
+
+
 
 For your weekend homework your task is to write some functions to be used in a pet shop.
 
