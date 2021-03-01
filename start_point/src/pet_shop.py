@@ -44,8 +44,16 @@ def get_customer_pets_count(customer_pets):
     return len ("customer"["pets"]) 
 
 def add_pet_to_customer(customer,pet):
-    for customer in customer["names"]:
-        list [2].append("pet")
+    for customer in customer["name"]:
+        list [2].append(pet)
         return (customer+pet)
-
-def
+#optioanl
+def test_customer_can_afford_pet__sufficient_funds(costomer,cash):
+        customer = [cash] .customers[0]
+        can_buy_pet = customer(customer,cash.new_pet)
+        return (True, can_buy_pet)
+        
+def test_customer_can_afford_pet__insufficient_funds(costomer,cash):
+            customer = [cash].customers[1]
+            can_buy_pet = customer(customer, cash.new_pet)
+            (False,can_buy_pet)
